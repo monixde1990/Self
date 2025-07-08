@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Гараж Самообслуживания</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Гараж Самообслуживания в Варшаве</h1>
+    <p>Полностью оборудованный гараж с почасовой арендой</p>
+    <a href="#book" class="btn">Забронировать</a>
+  </header>
+
+  <section class="gallery">
+    <img src="garage1.jpg" alt="Гараж 1">
+    <img src="garage2.jpg" alt="Гараж 2">
+    <img src="garage3.jpg" alt="Гараж 3">
+    <img src="garage4.jpg" alt="Гараж 4">
+    <img src="garage5.jpg" alt="Гараж 5">
+    <img src="garage6.jpg" alt="Гараж 6">
+  </section>
+
+  <section class="prices">
+    <h2>Цены</h2>
+    <ul>
+      <li>💰 40 zł / час</li>
+      <li>🔥 4 часа = 128 zł (скидка 20%)</li>
+      <li>💥 Весь день (6:00–24:00) = 300 zł</li>
+      <li>📉 Скидка 58%, действует при полной предоплате</li>
+      <li>❄️ Отопление зимой: +6 zł / час</li>
+      <li>♻️ Утилизация масла: +5 zł за 5 л</li>
+    </ul>
+  </section>
+
+  <section class="booking" id="book">
+    <h2>Бронирование</h2>
+    <form action="mailto:your@email.com" method="post" enctype="text/plain">
+      <input type="text" name="Имя" placeholder="Ваше имя" required />
+      <input type="email" name="Email" placeholder="Email" required />
+      <input type="text" name="Телефон" placeholder="Телефон" />
+      <textarea name="Комментарий" placeholder="Дата, время, что нужно..."></textarea>
+      <button type="submit">Отправить заявку</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Гараж Самообслуживания в Варшаве</p>
+  </footer>
+</body>
+</html>
